@@ -1,49 +1,105 @@
-nav{
-    width: 100%;
-    height: 80px;
-    background-color: #2b2b2b;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20px;}
-
 .logo{
     float: left;
+    margin-top: 20px;
+    margin-left: 50px;
     color: white;
-    font: menu;
 }
 
 .nav-con{
     width: 520px;
     height: 60px;
-    float: right;}
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 nav ul{
     list-style: none;}
 
 nav li{
    float: left;
-   padding-left: 20px;
-   padding-right: 20px;
    height: 35px;
-   background-color: rgb(255, 255, 255);
-   border-radius: 5px;
+   margin-right: auto;
    margin-left: 5px;
-   margin-right: 5px;
+   margin-right: 20px;
    padding-top: 5px;}
 
 nav li:hover{
-    background-color: #780606;
-    color: rgb(255, 255, 255);}
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(178, 240, 128);
+    }
 
 
 header{
         width: 100%;
         height: 840px;
-        background-color: lightgray;
-        background-position: center;
+        background-image: url(../assets/billie-eilish-american-singer-2021-5k-8k-5120x2880-6487.jpg);
         background-size: cover;
         padding-top: 150px;
         padding-left: 10%;
         padding-right: 10%;
         color: white;
+}
+
+.nav-text{
+    color: white}
+
+.active{
+    color: rgb(178, 240, 128);
+}
+
+
+h3{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h1{
+    font-size: 72px;
+    
+}
+
+.play-btn{
+    width: 250px;
+    height: 70px;
+    border: 2px solid #2b2b2b;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.play-btn:hover{
+    background-color: rgb(178, 240, 128);
+    color: #3b4b27;
+    cursor: pointer;}
+
+.shuffle-btn{
+    width: 250px;
+    height: 70px;
+    border: 2px solid #2b2b2b;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: 5px;
+    font-size: 24px;
+    float: right;
+
+}
+
+.shuffle-btn:hover{
+    background-color: rgb(178, 240, 128);
+    color: #3b4b27;
+    cursor: pointer;}
+
+
+.half{
+    width: 50%;
+
 }
