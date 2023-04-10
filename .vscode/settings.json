@@ -1,3 +1,13 @@
-{
-    "liveServer.settings.port": 5501
+{turn zenmode "git.alwaysSignOff": false,
+    "liveServer.settings.port": 5501,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": false,
+    "zenMode.silentNotifications": false
+    "workbench.editor.restoreViewState": true
+
 }
